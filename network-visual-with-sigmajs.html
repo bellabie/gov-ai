@@ -1,0 +1,247 @@
+<!-- START SIGMA IMPORTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/sigma.min.js"></script>
+<!-- END SIGMA IMPORTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.parsers.json.min.js"></script>
+<!-- END PARSER IMPORT -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.customEdgeShapes.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.edgeLabels.min.js"></script>
+<!-- END CUSTOM EDGE IMPORTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.parallelEdges.min.js"></script>
+<!-- END PARALLEL EDGE IMPORTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.plugins.filter.min.js"></script>
+<!-- END FILTER IMPORT -->
+
+<!-- UNUSED IMPORTS THAT COULD BE USEFUL
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.exporters.svg.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.layout.noverlap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.plugins.animate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.plugins.neighborhoods.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.plugins.relativeSize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.customShapes.min.js"></script>
+-->
+
+
+
+<div id="container">
+  <style>
+    #graph-container {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      background: #b22335;
+    }
+  </style>
+  <div id="graph-container"></div>
+</div>
+<script>
+  //Color Functions from Rob Lach  
+  function rgb2hex(f, e, a) {
+    var c = [f.toString(16), e.toString(16), a.toString(16)];
+    for (var d = 0; d < 3; d++) {
+        if (c[d].length == 1) {
+            c[d] = c[d] + c[d]
+        }
+    }
+    if (c[0][0] == c[0][1] && c[1][0] == c[1][1] && c[2][0] == c[2][1]) {
+        return "#" + c[0][0] + c[1][0] + c[2][0]
+    }
+    return "#" + c[0] + c[1] + c[2]
+} 
+  //i = Hue
+  //m = saturation
+  //f = luminosity
+function hslToHex(i, m, f) { // hslToHex(hue, saturation, lumosity)
+    while (i > 360) {
+        i = i - 360
+    }
+    i /= 360;
+    var a, j, k;
+    if (m == 0) {
+        a = j = k = f
+    } else {
+        function e(h, g, b) {
+            if (b < 0) {
+                b += 1
+            }
+            if (b > 1) {
+                b -= 1
+            }
+            if (b < 1 / 6) {
+                return h + (g - h) * 6 * b
+            }
+            if (b < 1 / 2) {
+                return g
+            }
+            if (b < 2 / 3) {
+                return h + (g - h) * (2 / 3 - b) * 6
+            }
+            return h
+        }
+        var c = f < 0.5 ? f * (1 + m) : f + m - f * m;
+        var d = 2 * f - c;
+        a = Math.floor(e(d, c, i + 1 / 3) * 255);
+        j = Math.floor(e(d, c, i) * 255);
+        k = Math.floor(e(d, c, i - 1 / 3) * 255)
+    }
+    return rgb2hex(a, j, k)
+}
+// end Rob Lach color shenanigans
+
+var g = { // here's the graph
+      nodes: [],
+      edges: []
+    };
+
+s = new sigma({
+  graph: g,
+  renderer: {
+    // IMPORTANT:
+    // These imports and things may only work only with the canvas renderer, so the renderer type set as "canvas" is necessary here.
+    container: document.getElementById('graph-container'),
+    type: 'canvas'
+  },
+  settings: {
+    minNodeSize: 1,
+    maxNodeSize: 3,
+    minEdgeSize: 1,
+    maxEdgeSize: 2.5,
+    defaultNodeColor: '#bbbbbb',
+    enableEdgeHovering: true,
+    edgeHoverColor: 'edge',
+    edgeHoverSizeRatio: 3,
+    edgeWeightInfluence: 1,
+    //singleHover: 'false', //doesn't seem to do anything??
+    //defaultEdgeColor: 'default',
+    defaultEdgeType: 'curve'
+  }
+});
+
+sigma.parsers.json('ai-research-network-data.json', s, function(){
+  //JSON with stuff in
+  //Go through the JSON and count how many of each unique pair there are
+  //Then I want to change (or insert) a variable in the g array as a result
+  //Insert and iterate count number to edges (loop through twice)
+  var clusters = []; //this will hold our unique cluster ids
+  var countArray = []; //this will hold the number of unique pairs
+  s.graph.edges().forEach(function(item, index, array) { // This will create the count for parallel edges and makes sure they're all set to curve type
+    //it also actually helps us count how many clusters there are for coloring purposes
+
+      if (clusters.includes(item.clusterid)) {
+      //do nothing, tbh
+       } else {
+        clusters[item.clusterid.toString()]+=1; //= item.clusterid.toString();
+      }
+
+      if (countArray[""+item.source+item.target]>0) {
+        countArray[""+item.source+item.target]+=1;
+      } else {
+        countArray[""+item.source+item.target]=1;
+      }
+      item.count=countArray[""+item.source+item.target]*3-2; // adding a little space
+      item.type="curve"; // parallel edges need curves or curved arrows
+      //item.color=s.graph.nodes(item.target).color;
+  });
+  /*
+  var rainbowSize = Object.keys(clusters).length;
+  var rainbow = [];
+  var colorCounter = 0;
+  Object.keys(clusters).forEach(function (item) {
+    //console.log("item is "+item);
+    rainbow[item] = hslToHex((315*colorCounter/rainbowSize)-110,0.8,0.35); // hslToHex(hue, saturation, lumosity)
+    colorCounter+=1;
+  });
+  console.log("rainbow contains "+Object.values(rainbow));
+
+  function sin_to_hex(i, phase) {
+    var sin = Math.sin(Math.PI / rainbowSize * 2 * i + phase);
+    var int = Math.floor(sin * 127) + 128;
+    var hex = int.toString(16);
+    return hex.length === 1 ? "0"+hex : hex;
+  }
+  console.log("Generated a rainbow array of "+rainbowSize+" colors");
+
+  s.graph.edges().forEach(function(item, index, array) {
+    //console.log(item.clusterid);
+    item.color = rainbow[item.clusterid];
+  });*/
+
+  // http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+  function shuffle(array) {
+    var currentIndex = array.length
+      , temporaryValue
+      , randomIndex
+      ;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    console.log("shuffled up!");
+    return array;
+  }
+  
+  var randomOrderingArray = [];
+  for( var counter = 0; counter < s.graph.nodes().length; counter++){
+    randomOrderingArray.push(counter);
+  }
+  randomOrderingArray = shuffle(randomOrderingArray); //randomize the array to map new coords for the nodes
+  
+  //Place nodes around a circle
+  var radius = 20;
+  s.graph.nodes().forEach(function(item, index, array){
+    item.x = radius * Math.cos((randomOrderingArray[index]/array.length) * 360 * Math.PI / 180);
+    item.y = radius * Math.sin((randomOrderingArray[index]/array.length) * 360 * Math.PI / 180);
+  });
+
+  s.refresh();
+
+
+  // The following is an attempt to highlight clusters on hover taken and adapted from the sigma.misc.drawHovers.js code
+  /*
+  s.bind('overEdge', function(e) {
+    console.log("edge highlighted");
+
+  });
+
+  s.bind('outEdge', function(e) {
+
+  });*/
+
+  // Example events
+  /*s.bind('overNode outNode clickNode doubleClickNode rightClickNode', function(e) {
+    console.log(e.type, e.data.node.label, e.data.captor);
+  });
+  s.bind('overEdge outEdge clickEdge doubleClickEdge rightClickEdge', function(e) {
+    console.log(e.type, e.data.edge, e.data.captor);
+  });
+  s.bind('clickStage', function(e) {
+    console.log(e.type, e.data.captor);
+  });
+  s.bind('doubleClickStage rightClickStage', function(e) {
+    console.log(e.type, e.data.captor);
+  });
+
+  console.log("event listeners loaded");*/
+
+
+  // Start the ForceAtlas2 algorithm:
+  /*s.startForceAtlas2({worker: true, iterationsPerRender: 10, scalingRatio: 1.1, gravity: 2});
+  function stopItForreal() {
+    s.stopForceAtlas2();
+    console.log("forceatlas2 should have stopped");
+  }
+  window.setTimeout(stopItForreal,500);*/
+
+});
+
+</script>
