@@ -1,0 +1,3174 @@
+{
+  "edges": [
+    {
+      "source": "usairforce",
+      "target": "columbiauniversity",
+      "id": 2001,
+      "size": 0.1,
+      "clusterid": 3001,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnoaa",
+      "target": "citycollegeofnewyork",
+      "id": 2002,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnoaa",
+      "target": "rutgersuniversity",
+      "id": 2003,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnoaa",
+      "target": "nuistchina",
+      "id": 2004,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdoe",
+      "target": "citycollegeofnewyork",
+      "id": 2005,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdoe",
+      "target": "rutgersuniversity",
+      "id": 2006,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdoe",
+      "target": "nuistchina",
+      "id": 2007,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "citycollegeofnewyork",
+      "id": 2008,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "rutgersuniversity",
+      "id": 2009,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "nuistchina",
+      "id": 2010,
+      "size": 0.1,
+      "clusterid": 3002,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "uncchapelhill",
+      "id": 2011,
+      "size": 0.1,
+      "clusterid": 3003,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "mit",
+      "id": 2012,
+      "size": 0.1,
+      "clusterid": 3004,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "usnist",
+      "id": 2013,
+      "size": 0.1,
+      "clusterid": 3005,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universityofmarylandcollegepark",
+      "id": 2014,
+      "size": 0.1,
+      "clusterid": 3005,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "usnist",
+      "id": 2015,
+      "size": 0.1,
+      "clusterid": 3005,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "universityofmarylandcollegepark",
+      "id": 2016,
+      "size": 0.1,
+      "clusterid": 3005,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "parc",
+      "id": 2017,
+      "size": 0.1,
+      "clusterid": 3006,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universityofmichigan",
+      "id": 2018,
+      "size": 0.1,
+      "clusterid": 3006,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "canadanserc",
+      "target": "parc",
+      "id": 2019,
+      "size": 0.1,
+      "clusterid": 3006,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "canadanserc",
+      "target": "universityofmichigan",
+      "id": 2020,
+      "size": 0.1,
+      "clusterid": 3006,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "columbiauniversity",
+      "id": 2021,
+      "size": 0.1,
+      "clusterid": 3007,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "nyuabudhabi",
+      "id": 2022,
+      "size": 0.1,
+      "clusterid": 3007,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "ucberkeley",
+      "id": 2023,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "universityoftorontocanada",
+      "id": 2024,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "universityoforegon",
+      "id": 2025,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "ucberkeley",
+      "id": 2026,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "universityoftorontocanada",
+      "id": 2027,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "universityoforegon",
+      "id": 2028,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "ucberkeley",
+      "id": 2029,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "universityoftorontocanada",
+      "id": 2030,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "universityoforegon",
+      "id": 2031,
+      "size": 0.1,
+      "clusterid": 3008,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universityofmarylandcollegepark",
+      "id": 2032,
+      "size": 0.1,
+      "clusterid": 3009,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "usarmy",
+      "id": 2033,
+      "size": 0.1,
+      "clusterid": 3009,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "universityofmichigan",
+      "id": 2034,
+      "size": 0.1,
+      "clusterid": 3010,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "cityuniversityofnewyork",
+      "id": 2035,
+      "size": 0.1,
+      "clusterid": 3011,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "cityuniversityofnewyork",
+      "id": 2036,
+      "size": 0.1,
+      "clusterid": 3011,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usfbi",
+      "target": "usnist",
+      "id": 2037,
+      "size": 0.1,
+      "clusterid": 3012,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usfbi",
+      "target": "coloradostateuniversity",
+      "id": 2038,
+      "size": 0.1,
+      "clusterid": 3012,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "ustswg",
+      "target": "usnist",
+      "id": 2039,
+      "size": 0.1,
+      "clusterid": 3012,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "ustswg",
+      "target": "coloradostateuniversity",
+      "id": 2040,
+      "size": 0.1,
+      "clusterid": 3012,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universityofcentralflorida",
+      "id": 2041,
+      "size": 0.1,
+      "clusterid": 3013,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "ohiostateuniversity",
+      "id": 2042,
+      "size": 0.1,
+      "clusterid": 3014,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "carnegiemellonuniversity",
+      "target": "carnegiemellonuniversity",
+      "id": 2043,
+      "size": 0.1,
+      "clusterid": 3015,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "carnegiemellonuniversity",
+      "id": 2044,
+      "size": 0.1,
+      "clusterid": 3015,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "ucriverside",
+      "id": 2045,
+      "size": 0.1,
+      "clusterid": 3016,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "usairforce",
+      "id": 2046,
+      "size": 0.1,
+      "clusterid": 3017,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "northeasternuniversity",
+      "id": 2047,
+      "size": 0.1,
+      "clusterid": 3018,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "northeasternuniversity",
+      "id": 2048,
+      "size": 0.1,
+      "clusterid": 3018,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "northeasternuniversity",
+      "id": 2049,
+      "size": 0.1,
+      "clusterid": 3018,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "northeasternuniversity",
+      "id": 2050,
+      "size": 0.1,
+      "clusterid": 3019,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "northeasternuniversity",
+      "id": 2051,
+      "size": 0.1,
+      "clusterid": 3019,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "northeasternuniversity",
+      "id": 2052,
+      "size": 0.1,
+      "clusterid": 3019,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "polytechnicuniversityofcataloniaspain",
+      "id": 2053,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainfpu",
+      "target": "polytechnicuniversityofcataloniaspain",
+      "id": 2054,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainminecofeder",
+      "target": "polytechnicuniversityofcataloniaspain",
+      "id": 2055,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "erdf",
+      "target": "polytechnicuniversityofcataloniaspain",
+      "id": 2056,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "ucberkeley",
+      "id": 2057,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainfpu",
+      "target": "ucberkeley",
+      "id": 2058,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainminecofeder",
+      "target": "ucberkeley",
+      "id": 2059,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "erdf",
+      "target": "ucberkeley",
+      "id": 2060,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "universityoflosandescolombia",
+      "id": 2061,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainfpu",
+      "target": "universityoflosandescolombia",
+      "id": 2062,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainminecofeder",
+      "target": "universityoflosandescolombia",
+      "id": 2063,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "erdf",
+      "target": "universityoflosandescolombia",
+      "id": 2064,
+      "size": 0.1,
+      "clusterid": 3020,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "ucberkeley",
+      "id": 2065,
+      "size": 0.1,
+      "clusterid": 3021,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "ucberkeley",
+      "id": 2066,
+      "size": 0.1,
+      "clusterid": 3021,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "ohiostateuniversity",
+      "id": 2067,
+      "size": 0.1,
+      "clusterid": 3022,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "ohiostateuniversity",
+      "id": 2068,
+      "size": 0.1,
+      "clusterid": 3022,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "ohiosupercomputercenter",
+      "target": "ohiostateuniversity",
+      "id": 2069,
+      "size": 0.1,
+      "clusterid": 3022,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "tsinghuauniversitychina",
+      "target": "tsinghuauniversitychina",
+      "id": 2070,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinansfc",
+      "target": "tsinghuauniversitychina",
+      "id": 2071,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "beijingmunicipalnaturalsciencefoundation",
+      "target": "tsinghuauniversitychina",
+      "id": 2072,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "tsinghuauniversitychina",
+      "id": 2073,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinanationalbasicresearch973program",
+      "target": "tsinghuauniversitychina",
+      "id": 2074,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utsanantonio",
+      "target": "tsinghuauniversitychina",
+      "id": 2075,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "tsinghuauniversitychina",
+      "target": "utsanantonio",
+      "id": 2076,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinansfc",
+      "target": "utsanantonio",
+      "id": 2077,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "beijingmunicipalnaturalsciencefoundation",
+      "target": "utsanantonio",
+      "id": 2078,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "utsanantonio",
+      "id": 2079,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinanationalbasicresearch973program",
+      "target": "utsanantonio",
+      "id": 2080,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utsanantonio",
+      "target": "utsanantonio",
+      "id": 2081,
+      "size": 0.1,
+      "clusterid": 3023,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "google",
+      "id": 2082,
+      "size": 0.1,
+      "clusterid": 3024,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "google",
+      "id": 2083,
+      "size": 0.1,
+      "clusterid": 3024,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "carnegiemellonuniversity",
+      "id": 2084,
+      "size": 0.1,
+      "clusterid": 3024,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "carnegiemellonuniversity",
+      "id": 2085,
+      "size": 0.1,
+      "clusterid": 3024,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "cuboulder",
+      "target": "cuboulder",
+      "id": 2086,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "cuboulder",
+      "id": 2087,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "cuboulder",
+      "id": 2088,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "cuboulder",
+      "id": 2089,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "cuboulder",
+      "id": 2090,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "johntempletonfoundation",
+      "target": "cuboulder",
+      "id": 2091,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "cuboulder",
+      "target": "santafeinstitute",
+      "id": 2092,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "santafeinstitute",
+      "id": 2093,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "santafeinstitute",
+      "id": 2094,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "santafeinstitute",
+      "id": 2095,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "santafeinstitute",
+      "id": 2096,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "johntempletonfoundation",
+      "target": "santafeinstitute",
+      "id": 2097,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "cuboulder",
+      "target": "universitecatholiquedelouvainbelgium",
+      "id": 2098,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "universitecatholiquedelouvainbelgium",
+      "id": 2099,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "universitecatholiquedelouvainbelgium",
+      "id": 2100,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "universitecatholiquedelouvainbelgium",
+      "id": 2101,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universitecatholiquedelouvainbelgium",
+      "id": 2102,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "johntempletonfoundation",
+      "target": "universitecatholiquedelouvainbelgium",
+      "id": 2103,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "cuboulder",
+      "target": "universityofnamurbelgium",
+      "id": 2104,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "universityofnamurbelgium",
+      "id": 2105,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "universityofnamurbelgium",
+      "id": 2106,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "universityofnamurbelgium",
+      "id": 2107,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universityofnamurbelgium",
+      "id": 2108,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "johntempletonfoundation",
+      "target": "universityofnamurbelgium",
+      "id": 2109,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "cuboulder",
+      "target": "chineseacademyofsciences",
+      "id": 2110,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "chineseacademyofsciences",
+      "id": 2111,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "chineseacademyofsciences",
+      "id": 2112,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "chineseacademyofsciences",
+      "id": 2113,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "chineseacademyofsciences",
+      "id": 2114,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "johntempletonfoundation",
+      "target": "chineseacademyofsciences",
+      "id": 2115,
+      "size": 0.1,
+      "clusterid": 3025,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "ucberkeley",
+      "target": "ucberkeley",
+      "id": 2116,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "ucberkeley",
+      "id": 2117,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "ucberkeley",
+      "id": 2118,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nvidia",
+      "target": "ucberkeley",
+      "id": 2119,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "germanacademicexchangeservicedaad",
+      "target": "ucberkeley",
+      "id": 2120,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usndseg",
+      "target": "ucberkeley",
+      "id": 2121,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "ucberkeley",
+      "target": "utaustin",
+      "id": 2122,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "utaustin",
+      "id": 2123,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "utaustin",
+      "id": 2124,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nvidia",
+      "target": "utaustin",
+      "id": 2125,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "germanacademicexchangeservicedaad",
+      "target": "utaustin",
+      "id": 2126,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usndseg",
+      "target": "utaustin",
+      "id": 2127,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "ucberkeley",
+      "target": "umasslowell",
+      "id": 2128,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "umasslowell",
+      "id": 2129,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "umasslowell",
+      "id": 2130,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nvidia",
+      "target": "umasslowell",
+      "id": 2131,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "germanacademicexchangeservicedaad",
+      "target": "umasslowell",
+      "id": 2132,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usndseg",
+      "target": "umasslowell",
+      "id": 2133,
+      "size": 0.1,
+      "clusterid": 3026,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "arizonastateuniversity",
+      "id": 2134,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "arizonastateuniversity",
+      "id": 2135,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "arizonastateuniversity",
+      "id": 2136,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "syracuseuniversity",
+      "id": 2137,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "syracuseuniversity",
+      "id": 2138,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "syracuseuniversity",
+      "id": 2139,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "michiganstateuniversity",
+      "id": 2140,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "michiganstateuniversity",
+      "id": 2141,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "michiganstateuniversity",
+      "id": 2142,
+      "size": 0.1,
+      "clusterid": 3027,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utdallas",
+      "target": "utdallas",
+      "id": 2143,
+      "size": 0.1,
+      "clusterid": 3028,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "utdallas",
+      "id": 2144,
+      "size": 0.1,
+      "clusterid": 3028,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "universityofarizona",
+      "id": 2145,
+      "size": 0.1,
+      "clusterid": 3029,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universityofarizona",
+      "id": 2146,
+      "size": 0.1,
+      "clusterid": 3029,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "uiuc",
+      "id": 2147,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "uiuc",
+      "id": 2148,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "universityofwashington",
+      "id": 2149,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "universityofwashington",
+      "id": 2150,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "universitycollegedublinireland",
+      "id": 2151,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "universitycollegedublinireland",
+      "id": 2152,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "johnshopkinsuniversity",
+      "id": 2153,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "johnshopkinsuniversity",
+      "id": 2154,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "toyotatechnologicalinstitute",
+      "id": 2155,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "toyotatechnologicalinstitute",
+      "id": 2156,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "i2rsingapore",
+      "id": 2157,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "i2rsingapore",
+      "id": 2158,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "mit",
+      "id": 2159,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "mit",
+      "id": 2160,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "columbiauniversity",
+      "id": 2161,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "columbiauniversity",
+      "id": 2162,
+      "size": 0.1,
+      "clusterid": 3030,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utdallas",
+      "target": "utdallas",
+      "id": 2163,
+      "size": 0.1,
+      "clusterid": 3031,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnih",
+      "target": "utdallas",
+      "id": 2164,
+      "size": 0.1,
+      "clusterid": 3031,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "utdallas",
+      "id": 2165,
+      "size": 0.1,
+      "clusterid": 3031,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "umassdartmouth",
+      "id": 2166,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "umassdartmouth",
+      "id": 2167,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "umassdartmouth",
+      "id": 2168,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "universityofnotredame",
+      "id": 2169,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "universityofnotredame",
+      "id": 2170,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universityofnotredame",
+      "id": 2171,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "northeasternuniversity",
+      "id": 2172,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "northeasternuniversity",
+      "id": 2173,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "northeasternuniversity",
+      "id": 2174,
+      "size": 0.1,
+      "clusterid": 3032,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "northeasternuniversity",
+      "id": 2175,
+      "size": 0.1,
+      "clusterid": 3033,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "rensselaerpolytechnicinstitute",
+      "id": 2176,
+      "size": 0.1,
+      "clusterid": 3033,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "rensselaerpolytechnicinstitute",
+      "id": 2177,
+      "size": 0.1,
+      "clusterid": 3034,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "ohiosupercomputercenter",
+      "target": "ohiostateuniversity",
+      "id": 2178,
+      "size": 0.1,
+      "clusterid": 3035,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "ohiostateuniversity",
+      "id": 2179,
+      "size": 0.1,
+      "clusterid": 3035,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "universityofmarylandcollegepark",
+      "id": 2180,
+      "size": 0.1,
+      "clusterid": 3036,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "rutgersuniversity",
+      "id": 2181,
+      "size": 0.1,
+      "clusterid": 3036,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "mit",
+      "id": 2182,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "mit",
+      "id": 2183,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usoasdre",
+      "target": "mit",
+      "id": 2184,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "mit",
+      "target": "mit",
+      "id": 2185,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "toyota",
+      "target": "mit",
+      "id": 2186,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "google",
+      "target": "mit",
+      "id": 2187,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "xerox",
+      "target": "mit",
+      "id": 2188,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "amazon",
+      "target": "mit",
+      "id": 2189,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nvidia",
+      "target": "mit",
+      "id": 2190,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "facebook",
+      "target": "mit",
+      "id": 2191,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2192,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2193,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usoasdre",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2194,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "mit",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2195,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "toyota",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2196,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "google",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2197,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "xerox",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2198,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "amazon",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2199,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nvidia",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2200,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "facebook",
+      "target": "openuniversityofcataloniaspain",
+      "id": 2201,
+      "size": 0.1,
+      "clusterid": 3037,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "universityofsoutherncalifornia",
+      "id": 2202,
+      "size": 0.1,
+      "clusterid": 3038,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "openuniversityofisrael",
+      "id": 2203,
+      "size": 0.1,
+      "clusterid": 3038,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utdallas",
+      "target": "utdallas",
+      "id": 2204,
+      "size": 0.1,
+      "clusterid": 3039,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "utdallas",
+      "id": 2205,
+      "size": 0.1,
+      "clusterid": 3039,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "utdallas",
+      "id": 2206,
+      "size": 0.1,
+      "clusterid": 3039,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "universityofoulufinland",
+      "id": 2207,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "academyoffinland",
+      "target": "universityofoulufinland",
+      "id": 2208,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "finlandfidipro",
+      "target": "universityofoulufinland",
+      "id": 2209,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "rutgersuniversity",
+      "id": 2210,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "academyoffinland",
+      "target": "rutgersuniversity",
+      "id": 2211,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "finlandfidipro",
+      "target": "rutgersuniversity",
+      "id": 2212,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "nudtchina",
+      "id": 2213,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "academyoffinland",
+      "target": "nudtchina",
+      "id": 2214,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "finlandfidipro",
+      "target": "nudtchina",
+      "id": 2215,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "universityofmarylandcollegepark",
+      "id": 2216,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "academyoffinland",
+      "target": "universityofmarylandcollegepark",
+      "id": 2217,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "finlandfidipro",
+      "target": "universityofmarylandcollegepark",
+      "id": 2218,
+      "size": 0.1,
+      "clusterid": 3040,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "autonomousuniversityofmadridspain",
+      "target": "autonomousuniversityofmadridspain",
+      "id": 2219,
+      "size": 0.1,
+      "clusterid": 3041,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "autonomousuniversityofmadridspain",
+      "id": 2220,
+      "size": 0.1,
+      "clusterid": 3041,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainminecofeder",
+      "target": "autonomousuniversityofmadridspain",
+      "id": 2221,
+      "size": 0.1,
+      "clusterid": 3041,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainspateknetwork",
+      "target": "autonomousuniversityofmadridspain",
+      "id": 2222,
+      "size": 0.1,
+      "clusterid": 3041,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "autonomousuniversityofmadridspain",
+      "target": "rutgersuniversity",
+      "id": 2223,
+      "size": 0.1,
+      "clusterid": 3041,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "rutgersuniversity",
+      "id": 2224,
+      "size": 0.1,
+      "clusterid": 3041,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainminecofeder",
+      "target": "rutgersuniversity",
+      "id": 2225,
+      "size": 0.1,
+      "clusterid": 3041,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "spainspateknetwork",
+      "target": "rutgersuniversity",
+      "id": 2226,
+      "size": 0.1,
+      "clusterid": 3041,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdarpa",
+      "target": "universityofsoutherncalifornia",
+      "id": 2227,
+      "size": 0.1,
+      "clusterid": 3042,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utdallas",
+      "target": "utdallas",
+      "id": 2228,
+      "size": 0.1,
+      "clusterid": 3043,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "utdallas",
+      "id": 2229,
+      "size": 0.1,
+      "clusterid": 3043,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "universityofhouston",
+      "id": 2230,
+      "size": 0.1,
+      "clusterid": 3044,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "universityofdelaware",
+      "id": 2231,
+      "size": 0.1,
+      "clusterid": 3045,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "usarmy",
+      "id": 2232,
+      "size": 0.1,
+      "clusterid": 3045,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "universityofsoutherncalifornia",
+      "id": 2233,
+      "size": 0.1,
+      "clusterid": 3046,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usodni",
+      "target": "universityofsoutherncalifornia",
+      "id": 2234,
+      "size": 0.1,
+      "clusterid": 3046,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "openuniversityofisrael",
+      "id": 2235,
+      "size": 0.1,
+      "clusterid": 3046,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usodni",
+      "target": "openuniversityofisrael",
+      "id": 2236,
+      "size": 0.1,
+      "clusterid": 3046,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "carnegiemellonuniversity",
+      "id": 2237,
+      "size": 0.1,
+      "clusterid": 3046,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usodni",
+      "target": "carnegiemellonuniversity",
+      "id": 2238,
+      "size": 0.1,
+      "clusterid": 3046,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "utdallas",
+      "id": 2239,
+      "size": 0.1,
+      "clusterid": 3047,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "columbiauniversity",
+      "id": 2240,
+      "size": 0.1,
+      "clusterid": 3048,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "columbiauniversity",
+      "id": 2241,
+      "size": 0.1,
+      "clusterid": 3048,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "pekinguniversitychina",
+      "id": 2242,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinansfc",
+      "target": "pekinguniversitychina",
+      "id": 2243,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "pekinguniversitychina",
+      "id": 2244,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "pekinguniversitychina",
+      "id": 2245,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "google",
+      "target": "pekinguniversitychina",
+      "id": 2246,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nec",
+      "target": "pekinguniversitychina",
+      "id": 2247,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utsanantonio",
+      "target": "pekinguniversitychina",
+      "id": 2248,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "anacostiacommunitymuseum",
+      "target": "pekinguniversitychina",
+      "id": 2249,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "fxpal",
+      "target": "pekinguniversitychina",
+      "id": 2250,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "blippar",
+      "target": "pekinguniversitychina",
+      "id": 2251,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "akiiramediasystems",
+      "target": "pekinguniversitychina",
+      "id": 2252,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "chineseacademyofsciences",
+      "id": 2253,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinansfc",
+      "target": "chineseacademyofsciences",
+      "id": 2254,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "chineseacademyofsciences",
+      "id": 2255,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "chineseacademyofsciences",
+      "id": 2256,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "google",
+      "target": "chineseacademyofsciences",
+      "id": 2257,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nec",
+      "target": "chineseacademyofsciences",
+      "id": 2258,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utsanantonio",
+      "target": "chineseacademyofsciences",
+      "id": 2259,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "anacostiacommunitymuseum",
+      "target": "chineseacademyofsciences",
+      "id": 2260,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "fxpal",
+      "target": "chineseacademyofsciences",
+      "id": 2261,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "blippar",
+      "target": "chineseacademyofsciences",
+      "id": 2262,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "akiiramediasystems",
+      "target": "chineseacademyofsciences",
+      "id": 2263,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "utsanantonio",
+      "id": 2264,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinansfc",
+      "target": "utsanantonio",
+      "id": 2265,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "utsanantonio",
+      "id": 2266,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usdhs",
+      "target": "utsanantonio",
+      "id": 2267,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "google",
+      "target": "utsanantonio",
+      "id": 2268,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nec",
+      "target": "utsanantonio",
+      "id": 2269,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utsanantonio",
+      "target": "utsanantonio",
+      "id": 2270,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "anacostiacommunitymuseum",
+      "target": "utsanantonio",
+      "id": 2271,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "fxpal",
+      "target": "utsanantonio",
+      "id": 2272,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "blippar",
+      "target": "utsanantonio",
+      "id": 2273,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "akiiramediasystems",
+      "target": "utsanantonio",
+      "id": 2274,
+      "size": 0.1,
+      "clusterid": 3049,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnavy",
+      "target": "universityofmarylandbaltimorecounty",
+      "id": 2275,
+      "size": 0.1,
+      "clusterid": 3050,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "alzheimersassociation",
+      "target": "universityofmarylandbaltimorecounty",
+      "id": 2276,
+      "size": 0.1,
+      "clusterid": 3050,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "purdueuniversity",
+      "id": 2277,
+      "size": 0.1,
+      "clusterid": 3051,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "utdallas",
+      "id": 2278,
+      "size": 0.1,
+      "clusterid": 3052,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "universityofwisconsinplatteville",
+      "id": 2279,
+      "size": 0.1,
+      "clusterid": 3052,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "utsanantonio",
+      "target": "utsanantonio",
+      "id": 2280,
+      "size": 0.1,
+      "clusterid": 3053,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "utsanantonio",
+      "id": 2281,
+      "size": 0.1,
+      "clusterid": 3053,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "tianjinuniversitychina",
+      "id": 2282,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinansfc",
+      "target": "tianjinuniversitychina",
+      "id": 2283,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nec",
+      "target": "tianjinuniversitychina",
+      "id": 2284,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "blippar",
+      "target": "tianjinuniversitychina",
+      "id": 2285,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "utsanantonio",
+      "id": 2286,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinansfc",
+      "target": "utsanantonio",
+      "id": 2287,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nec",
+      "target": "utsanantonio",
+      "id": 2288,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "blippar",
+      "target": "utsanantonio",
+      "id": 2289,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "hefeiuniversityoftechnologychina",
+      "id": 2290,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "chinansfc",
+      "target": "hefeiuniversityoftechnologychina",
+      "id": 2291,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "nec",
+      "target": "hefeiuniversityoftechnologychina",
+      "id": 2292,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "blippar",
+      "target": "hefeiuniversityoftechnologychina",
+      "id": 2293,
+      "size": 0.1,
+      "clusterid": 3054,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "citycollegeofnewyork",
+      "id": 2294,
+      "size": 0.1,
+      "clusterid": 3055,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "georgiastateuniversity",
+      "id": 2295,
+      "size": 0.1,
+      "clusterid": 3055,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usairforce",
+      "target": "ohiostateuniversity",
+      "id": 2296,
+      "size": 0.1,
+      "clusterid": 3056,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnsf",
+      "target": "ohiostateuniversity",
+      "id": 2297,
+      "size": 0.1,
+      "clusterid": 3056,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usnih",
+      "target": "ohiostateuniversity",
+      "id": 2298,
+      "size": 0.1,
+      "clusterid": 3056,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "universityofsoutherncalifornia",
+      "id": 2299,
+      "size": 0.1,
+      "clusterid": 3057,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usiarpa",
+      "target": "openuniversityofisrael",
+      "id": 2300,
+      "size": 0.1,
+      "clusterid": 3057,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "rutgersuniversity",
+      "id": 2301,
+      "size": 0.1,
+      "clusterid": 3058,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "johnshopkinsuniversity",
+      "id": 2302,
+      "size": 0.1,
+      "clusterid": 3058,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "boozallenhamilton",
+      "id": 2303,
+      "size": 0.1,
+      "clusterid": 3058,
+      "color": "#f20e2c"
+    },
+    {
+      "source": "usarmy",
+      "target": "usarmy",
+      "id": 2304,
+      "size": 0.1,
+      "clusterid": 3058,
+      "color": "#f20e2c"
+    }
+  ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "nodes": [
+    {
+      "label": "Academy of Finland",
+      "x": 10,
+      "y": 10,
+      "id": "academyoffinland",
+      "size": 1
+    },
+    {
+      "label": "Akiira Media Systems",
+      "x": 20,
+      "y": 20,
+      "id": "akiiramediasystems",
+      "size": 1
+    },
+    {
+      "label": "Alzheimer's Association",
+      "x": 30,
+      "y": 30,
+      "id": "alzheimersassociation",
+      "size": 1
+    },
+    {
+      "label": "Amazon",
+      "x": 40,
+      "y": 40,
+      "id": "amazon",
+      "size": 1
+    },
+    {
+      "label": "Anacostia Community Museum",
+      "x": 50,
+      "y": 50,
+      "id": "anacostiacommunitymuseum",
+      "size": 1
+    },
+    {
+      "label": "Arizona State University",
+      "x": 60,
+      "y": 60,
+      "id": "arizonastateuniversity",
+      "size": 1
+    },
+    {
+      "label": "Autonomous University of Madrid (Spain)",
+      "x": 70,
+      "y": 70,
+      "id": "autonomousuniversityofmadridspain",
+      "size": 1
+    },
+    {
+      "label": "Beijing Municipal Natural Science Foundation",
+      "x": 80,
+      "y": 80,
+      "id": "beijingmunicipalnaturalsciencefoundation",
+      "size": 1
+    },
+    {
+      "label": "Blippar",
+      "x": 90,
+      "y": 90,
+      "id": "blippar",
+      "size": 1
+    },
+    {
+      "label": "Booz Allen Hamilton",
+      "x": 100,
+      "y": 100,
+      "id": "boozallenhamilton",
+      "size": 1
+    },
+    {
+      "label": "Canada NSERC",
+      "x": 10,
+      "y": -10,
+      "id": "canadanserc",
+      "size": 1
+    },
+    {
+      "label": "Carnegie Mellon University",
+      "x": 20,
+      "y": -20,
+      "id": "carnegiemellonuniversity",
+      "size": 1
+    },
+    {
+      "label": "China National Basic Research (973) Program",
+      "x": 30,
+      "y": -30,
+      "id": "chinanationalbasicresearch973program",
+      "size": 1
+    },
+    {
+      "label": "China NSFC",
+      "x": 40,
+      "y": -40,
+      "id": "chinansfc",
+      "size": 1
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "x": 50,
+      "y": -50,
+      "id": "chineseacademyofsciences",
+      "size": 1
+    },
+    {
+      "label": "City College of New York",
+      "x": 60,
+      "y": -60,
+      "id": "citycollegeofnewyork",
+      "size": 1
+    },
+    {
+      "label": "City University of New York",
+      "x": 70,
+      "y": -70,
+      "id": "cityuniversityofnewyork",
+      "size": 1
+    },
+    {
+      "label": "Colorado State University",
+      "x": 80,
+      "y": -80,
+      "id": "coloradostateuniversity",
+      "size": 1
+    },
+    {
+      "label": "Columbia University",
+      "x": 90,
+      "y": -90,
+      "id": "columbiauniversity",
+      "size": 1
+    },
+    {
+      "label": "CU Boulder",
+      "x": 100,
+      "y": -100,
+      "id": "cuboulder",
+      "size": 1
+    },
+    {
+      "label": "European Regional Development Fund (ERDF)",
+      "x": -10,
+      "y": 10,
+      "id": "erdf",
+      "size": 1
+    },
+    {
+      "label": "Facebook",
+      "x": -20,
+      "y": 20,
+      "id": "facebook",
+      "size": 1
+    },
+    {
+      "label": "Finland FiDiPro",
+      "x": -30,
+      "y": 30,
+      "id": "finlandfidipro",
+      "size": 1
+    },
+    {
+      "label": "FXPAL",
+      "x": -40,
+      "y": 40,
+      "id": "fxpal",
+      "size": 1
+    },
+    {
+      "label": "Georgia State University",
+      "x": -50,
+      "y": 50,
+      "id": "georgiastateuniversity",
+      "size": 1
+    },
+    {
+      "label": "German Academic Exchange Service (DAAD)",
+      "x": -60,
+      "y": 60,
+      "id": "germanacademicexchangeservicedaad",
+      "size": 1
+    },
+    {
+      "label": "Google",
+      "x": -70,
+      "y": 70,
+      "id": "google",
+      "size": 1
+    },
+    {
+      "label": "Hefei University of Technology (China)",
+      "x": -80,
+      "y": 80,
+      "id": "hefeiuniversityoftechnologychina",
+      "size": 1
+    },
+    {
+      "label": "I2R Singapore",
+      "x": -90,
+      "y": 90,
+      "id": "i2rsingapore",
+      "size": 1
+    },
+    {
+      "label": "John Templeton Foundation",
+      "x": -100,
+      "y": 100,
+      "id": "johntempletonfoundation",
+      "size": 1
+    },
+    {
+      "label": "Johns Hopkins University",
+      "x": -10,
+      "y": -10,
+      "id": "johnshopkinsuniversity",
+      "size": 1
+    },
+    {
+      "label": "Michigan State University",
+      "x": -20,
+      "y": -20,
+      "id": "michiganstateuniversity",
+      "size": 1
+    },
+    {
+      "label": "MIT",
+      "x": -30,
+      "y": -30,
+      "id": "mit",
+      "size": 1
+    },
+    {
+      "label": "NEC",
+      "x": -40,
+      "y": -40,
+      "id": "nec",
+      "size": 1
+    },
+    {
+      "label": "Northeastern University",
+      "x": -50,
+      "y": -50,
+      "id": "northeasternuniversity",
+      "size": 1
+    },
+    {
+      "label": "NUDT (China)",
+      "x": -60,
+      "y": -60,
+      "id": "nudtchina",
+      "size": 1
+    },
+    {
+      "label": "NUIST (China)",
+      "x": -70,
+      "y": -70,
+      "id": "nuistchina",
+      "size": 1
+    },
+    {
+      "label": "NVIDIA",
+      "x": -80,
+      "y": -80,
+      "id": "nvidia",
+      "size": 1
+    },
+    {
+      "label": "NYU Abu Dhabi",
+      "x": -90,
+      "y": -90,
+      "id": "nyuabudhabi",
+      "size": 1
+    },
+    {
+      "label": "Ohio State University",
+      "x": -100,
+      "y": -100,
+      "id": "ohiostateuniversity",
+      "size": 1
+    },
+    {
+      "label": "Ohio Supercomputer Center",
+      "x": 10,
+      "y": -100,
+      "id": "ohiosupercomputercenter",
+      "size": 1
+    },
+    {
+      "label": "Open University of Catalonia (Spain)",
+      "x": 20,
+      "y": -90,
+      "id": "openuniversityofcataloniaspain",
+      "size": 1
+    },
+    {
+      "label": "Open University of Israel",
+      "x": 30,
+      "y": -80,
+      "id": "openuniversityofisrael",
+      "size": 1
+    },
+    {
+      "label": "PARC",
+      "x": 40,
+      "y": -70,
+      "id": "parc",
+      "size": 1
+    },
+    {
+      "label": "Peking University (China)",
+      "x": 50,
+      "y": -60,
+      "id": "pekinguniversitychina",
+      "size": 1
+    },
+    {
+      "label": "Polytechnic University of Catalonia (Spain)",
+      "x": 60,
+      "y": -50,
+      "id": "polytechnicuniversityofcataloniaspain",
+      "size": 1
+    },
+    {
+      "label": "Purdue University",
+      "x": 70,
+      "y": -40,
+      "id": "purdueuniversity",
+      "size": 1
+    },
+    {
+      "label": "Rensselaer Polytechnic Institute",
+      "x": 80,
+      "y": -30,
+      "id": "rensselaerpolytechnicinstitute",
+      "size": 1
+    },
+    {
+      "label": "Rutgers University",
+      "x": 90,
+      "y": -20,
+      "id": "rutgersuniversity",
+      "size": 1
+    },
+    {
+      "label": "Santa Fe Institute",
+      "x": 100,
+      "y": -10,
+      "id": "santafeinstitute",
+      "size": 1
+    },
+    {
+      "label": "Spain FPU",
+      "x": 10,
+      "y": -100,
+      "id": "spainfpu",
+      "size": 1
+    },
+    {
+      "label": "Spain MINECO/FEDER",
+      "x": 20,
+      "y": -90,
+      "id": "spainminecofeder",
+      "size": 1
+    },
+    {
+      "label": "Spain SPATEK Network",
+      "x": 30,
+      "y": -80,
+      "id": "spainspateknetwork",
+      "size": 1
+    },
+    {
+      "label": "Syracuse University",
+      "x": 40,
+      "y": -70,
+      "id": "syracuseuniversity",
+      "size": 1
+    },
+    {
+      "label": "Tianjin University (China)",
+      "x": 50,
+      "y": -60,
+      "id": "tianjinuniversitychina",
+      "size": 1
+    },
+    {
+      "label": "Toyota",
+      "x": 60,
+      "y": -50,
+      "id": "toyota",
+      "size": 1
+    },
+    {
+      "label": "Toyota Technological Institute",
+      "x": 70,
+      "y": -40,
+      "id": "toyotatechnologicalinstitute",
+      "size": 1
+    },
+    {
+      "label": "Tsinghua University (China)",
+      "x": 80,
+      "y": -30,
+      "id": "tsinghuauniversitychina",
+      "size": 1
+    },
+    {
+      "label": "UC Berkeley",
+      "x": 90,
+      "y": -20,
+      "id": "ucberkeley",
+      "size": 1
+    },
+    {
+      "label": "UC Riverside",
+      "x": 100,
+      "y": -10,
+      "id": "ucriverside",
+      "size": 1
+    },
+    {
+      "label": "UIUC",
+      "x": -10,
+      "y": 100,
+      "id": "uiuc",
+      "size": 1
+    },
+    {
+      "label": "UMass Dartmouth",
+      "x": -20,
+      "y": 90,
+      "id": "umassdartmouth",
+      "size": 1
+    },
+    {
+      "label": "UMass Lowell",
+      "x": -30,
+      "y": 80,
+      "id": "umasslowell",
+      "size": 1
+    },
+    {
+      "label": "UNC Chapel Hill",
+      "x": -40,
+      "y": 70,
+      "id": "uncchapelhill",
+      "size": 1
+    },
+    {
+      "label": "universitecatholiquedelouvainbelgium",
+      "x": -50,
+      "y": 60,
+      "id": "universitecatholiquedelouvainbelgium",
+      "size": 1
+    },
+    {
+      "label": "University College Dublin (Ireland)",
+      "x": -60,
+      "y": 50,
+      "id": "universitycollegedublinireland",
+      "size": 1
+    },
+    {
+      "label": "University of Arizona",
+      "x": -70,
+      "y": 40,
+      "id": "universityofarizona",
+      "size": 1
+    },
+    {
+      "label": "University of Central Florida",
+      "x": -80,
+      "y": 30,
+      "id": "universityofcentralflorida",
+      "size": 1
+    },
+    {
+      "label": "University of Delaware",
+      "x": -90,
+      "y": 20,
+      "id": "universityofdelaware",
+      "size": 1
+    },
+    {
+      "label": "University of Houston",
+      "x": -100,
+      "y": 10,
+      "id": "universityofhouston",
+      "size": 1
+    },
+    {
+      "label": "University of Los Andes (Colombia)",
+      "x": -10,
+      "y": 100,
+      "id": "universityoflosandescolombia",
+      "size": 1
+    },
+    {
+      "label": "University of Maryland Baltimore County",
+      "x": -20,
+      "y": 90,
+      "id": "universityofmarylandbaltimorecounty",
+      "size": 1
+    },
+    {
+      "label": "University of Maryland College Park",
+      "x": -30,
+      "y": 80,
+      "id": "universityofmarylandcollegepark",
+      "size": 1
+    },
+    {
+      "label": "University of Michigan",
+      "x": -40,
+      "y": 70,
+      "id": "universityofmichigan",
+      "size": 1
+    },
+    {
+      "label": "University of Namur (Belgium)",
+      "x": -50,
+      "y": 60,
+      "id": "universityofnamurbelgium",
+      "size": 1
+    },
+    {
+      "label": "University of Notre Dame",
+      "x": -60,
+      "y": 50,
+      "id": "universityofnotredame",
+      "size": 1
+    },
+    {
+      "label": "University of Oregon",
+      "x": -70,
+      "y": 40,
+      "id": "universityoforegon",
+      "size": 1
+    },
+    {
+      "label": "University of Oulu (Finland)",
+      "x": -80,
+      "y": 30,
+      "id": "universityofoulufinland",
+      "size": 1
+    },
+    {
+      "label": "University of Southern California",
+      "x": -90,
+      "y": 20,
+      "id": "universityofsoutherncalifornia",
+      "size": 1
+    },
+    {
+      "label": "University of Toronto (Canada)",
+      "x": -100,
+      "y": 10,
+      "id": "universityoftorontocanada",
+      "size": 1
+    },
+    {
+      "label": "University of Washington",
+      "x": 95,
+      "y": -15,
+      "id": "universityofwashington",
+      "size": 1
+    },
+    {
+      "label": "University of Wisconsin Platteville",
+      "x": -15,
+      "y": 95,
+      "id": "universityofwisconsinplatteville",
+      "size": 1
+    },
+    {
+      "label": "US Air Force",
+      "x": -25,
+      "y": 85,
+      "id": "usairforce",
+      "size": 1
+    },
+    {
+      "label": "US Army",
+      "x": -35,
+      "y": 75,
+      "id": "usarmy",
+      "size": 1
+    },
+    {
+      "label": "US DARPA",
+      "x": -45,
+      "y": 65,
+      "id": "usdarpa",
+      "size": 1
+    },
+    {
+      "label": "US DoE",
+      "x": -55,
+      "y": 55,
+      "id": "usdoe",
+      "size": 1
+    },
+    {
+      "label": "US DHS",
+      "x": -65,
+      "y": 45,
+      "id": "usdhs",
+      "size": 1
+    },
+    {
+      "label": "US FBI",
+      "x": -62,
+      "y": 47,
+      "id": "usfbi",
+      "size": 1
+    },
+    {
+      "label": "US IARPA",
+      "x": -75,
+      "y": 35,
+      "id": "usiarpa",
+      "size": 1
+    },
+    {
+      "label": "US NSF",
+      "x": -85,
+      "y": 25,
+      "id": "usnsf",
+      "size": 1
+    },
+    {
+      "label": "US Navy",
+      "x": -95,
+      "y": 15,
+      "id": "usnavy",
+      "size": 1
+    },
+    {
+      "label": "US NDSEG",
+      "x": -105,
+      "y": 5,
+      "id": "usndseg",
+      "size": 1
+    },
+    {
+      "label": "US NIH",
+      "x": -15,
+      "y": 95,
+      "id": "usnih",
+      "size": 1
+    },
+    {
+      "label": "US NIST",
+      "x": -25,
+      "y": 85,
+      "id": "usnist",
+      "size": 1
+    },
+    {
+      "label": "US NOAA",
+      "x": -35,
+      "y": 75,
+      "id": "usnoaa",
+      "size": 1
+    },
+    {
+      "label": "US OASD(R&E)",
+      "x": -45,
+      "y": 65,
+      "id": "usoasdre",
+      "size": 1
+    },
+    {
+      "label": "US ODNI",
+      "x": -55,
+      "y": 55,
+      "id": "usodni",
+      "size": 1
+    },
+    {
+      "label": "US TSWG",
+      "x": -65,
+      "y": 45,
+      "id": "ustswg",
+      "size": 1
+    },
+    {
+      "label": "UT Austin",
+      "x": -75,
+      "y": 35,
+      "id": "utaustin",
+      "size": 1
+    },
+    {
+      "label": "UT Dallas",
+      "x": -85,
+      "y": 25,
+      "id": "utdallas",
+      "size": 1
+    },
+    {
+      "label": "UT San Antonio",
+      "x": -95,
+      "y": 15,
+      "id": "utsanantonio",
+      "size": 1
+    },
+    {
+      "label": "Xerox",
+      "x": -105,
+      "y": 5,
+      "id": "xerox",
+      "size": 1
+    }
+  ]
+}
