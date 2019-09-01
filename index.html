@@ -3,7 +3,6 @@
 <!-- END SIGMA IMPORTS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.parsers.json.min.js"></script>
 <!-- END PARSER IMPORT -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.customEdgeShapes.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.edgeLabels.min.js"></script>
 <!-- END CUSTOM EDGE IMPORTS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.parallelEdges.min.js"></script>
@@ -12,6 +11,7 @@
 <!-- END FILTER IMPORT -->
 
 <!-- UNUSED IMPORTS THAT COULD BE USEFUL
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.renderers.customEdgeShapes.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.exporters.svg.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.layout.noverlap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/plugins/sigma.plugins.animate.min.js"></script>
@@ -109,8 +109,17 @@ s = new sigma({
     maxEdgeSize: 2.5,
     defaultNodeColor: '#bbbbbb',
     enableEdgeHovering: true,
-    edgeHoverColor: 'edge',
-    edgeHoverSizeRatio: 3,
+    singleHover: false, // this affects the event sensing for hovering, and relates to the edgeHoverPrecision
+    edgeHoverPrecision: 0.01, // defines how near the cursor needs to be to highlight an edge (to-do: seems to behave in a way different than I'd predict, so need to revisit)
+    edgeHoverExtremities: true, // highlights the nodes on the ends of a highlighted edge
+    edgeHoverColor: '#ffffff', // to-do: for some reason this is failing, setting to 'edge' at least doesn't error but that's not what we want
+    /* from sigma.canvas.edgehovers.curve.js (I think this is wrong)
+    if (settings('edgeHoverColor') === 'edge') {
+      color = edge.hover_color || color;
+    } else {
+      color = edge.hover_color || settings('defaultEdgeHoverColor') || color;
+    }*/
+    edgeHoverSizeRatio: 3, // nice chunky edges when we hover over
     edgeWeightInfluence: 1,
     //singleHover: 'false', //doesn't seem to do anything??
     //defaultEdgeColor: 'default',
@@ -208,6 +217,10 @@ sigma.parsers.json('ai-research-network-data.json', s, function(){
 
   // The following is an attempt to highlight clusters on hover taken and adapted from the sigma.misc.drawHovers.js code
   /*
+
+  // Initialize packages:
+  sigma.utils.pkg('sigma.misc');
+
   s.bind('overEdge', function(e) {
     console.log("edge highlighted");
 
@@ -218,8 +231,9 @@ sigma.parsers.json('ai-research-network-data.json', s, function(){
   });*/
 
   // Example events
-  /*s.bind('overNode outNode clickNode doubleClickNode rightClickNode', function(e) {
+  s.bind('overNode outNode clickNode doubleClickNode rightClickNode', function(e) {
     console.log(e.type, e.data.node.label, e.data.captor);
+    console.log('trying adjacentEdges ', adjacents);
   });
   s.bind('overEdge outEdge clickEdge doubleClickEdge rightClickEdge', function(e) {
     console.log(e.type, e.data.edge, e.data.captor);
@@ -231,8 +245,19 @@ sigma.parsers.json('ai-research-network-data.json', s, function(){
     console.log(e.type, e.data.captor);
   });
 
-  console.log("event listeners loaded");*/
+  console.log("event listeners loaded");
 
+  console.log('example node is', s.graph.nodes()[1]);
+  var testThis = s.graph.nodes()[1].id;
+  console.log('adjacents are', s.graph.adjacentEdges()[testThis]);
+
+  /*window.addEventListener('mousemove', e => {
+    s.dispatchEvent('outEdge',{
+       edge: s.graph.edges()[1]
+    });
+    s.graph.edges()[0].color = '#fff000';
+    s.refresh();
+  });*/
 
   // Start the ForceAtlas2 algorithm:
   /*s.startForceAtlas2({worker: true, iterationsPerRender: 10, scalingRatio: 1.1, gravity: 2});
